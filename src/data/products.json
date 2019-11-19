@@ -1,0 +1,58 @@
+{
+  "product001": {
+    "name": "product001",
+    "animal": "dog",
+    "type": "food",
+    "price": 50.05,
+    "selected": true
+  },
+  "product002": {
+    "name": "product002",
+    "animal": "dog",
+    "type": "food",
+    "price": 60.05,
+    "selected": true
+  },
+  "product003": {
+    "name": "product003",
+    "animal": "dog",
+    "type": "toy",
+    "price": 70.05,
+    "selected": true
+  },
+  "product004": {
+    "name": "product004",
+    "animal": "dog",
+    "type": "bed",
+    "price": 80.05,
+    "selected": true
+  },
+  "product005": {
+    "name": "product005",
+    "animal": "cat",
+    "type": "food",
+    "price": 90.05,
+    "selected": true
+  },
+  "product006": {
+    "name": "product006",
+    "animal": "cat",
+    "type": "food",
+    "price": 100.05,
+    "selected": true
+  },
+  "product007": {
+    "name": "product007",
+    "animal": "cat",
+    "type": "toy",
+    "price": 110.05,
+    "selected": true
+  },
+  "product008": {
+    "name": "product008",
+    "animal": "cat",
+    "type": "bed",
+    "price": 120.05,
+    "selected": true
+  }
+}

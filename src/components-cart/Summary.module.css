@@ -1,0 +1,16 @@
+.container {
+  border: solid;
+  border-color: #fd8b64;
+  border-radius: 15%;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.total {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+.h2 {
+  text-align: center;
+}

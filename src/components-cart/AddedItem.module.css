@@ -1,0 +1,23 @@
+.addedItemContainer {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  margin-bottom: 10px;
+}
+
+.imageBox {
+  background: #fdcfbb;
+  padding: 20px;
+}
+.descripBox {
+  background: #ff97a5;
+  padding: 20px 20px;
+}
+.priceBox {
+  background: #ffefb9;
+  padding: 20px 10px;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+}
