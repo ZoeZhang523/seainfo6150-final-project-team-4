@@ -1,0 +1,57 @@
+.topBar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background-color: #f7c45f;
+    height: 80px;
+  }
+  .logo {
+    order:1;
+    padding-top: 15px;
+    padding-left: 70px;
+  }
+  .logo img{
+    height:50px;
+    width: 50px;
+  }
+  .search_box {
+    order: 2;
+    width: 500px;
+    padding-top: 20px;
+    padding-left: 100px;
+  }
+  
+  .search_text {
+    width: 400px;
+    height: 35px;
+    padding: 0 5px;
+    background: #FFFFFF;
+  }
+  
+  .search_btn {
+    width: 70px;
+    height: 35px;
+    font-size: 14px;
+    background-color: #ff8c00;
+    color: #FFFFFF;
+  }
+  
+  .cart {
+    order: 3;
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: #ff8c00;
+  }
+
+  .account {
+    order: 4;
+    margin-top: 20px;
+    margin-right: 70px;
+    background-color: #ff8c00;
+    width: 30px;
+    height: 30px;
+  }
+
+  
