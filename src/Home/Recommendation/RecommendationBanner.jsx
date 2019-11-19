@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import ItemDisplay from '../ItemDisplay/ItemDisplay';
+import ItemDisplay from '../../PublicComponents/ItemDisplay/ItemDisplay';
 import style from './Recommendation.module.css';
 
 class RecommendationBanner extends Component {

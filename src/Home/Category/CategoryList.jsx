@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import CategoryDisplay from '../CategoryDisplay/CategroyDisplay';
+import CategoryDisplay from '../../PublicComponents/CategoryDisplay/CategroyDisplay';
 import style from './CategoryList.module.css';
 
 class CategoryList extends Component {

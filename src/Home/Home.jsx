@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Banner from './Banner/Banner';
+import Banner from '../PublicComponents/Banner/Banner';
 import CategoryList from './Category/CategoryList';
 import RecommendationBanner from './Recommendation/RecommendationBanner';
 import LargeItemDisplay from './LargeItemDisplay/LargeItemDisplay';

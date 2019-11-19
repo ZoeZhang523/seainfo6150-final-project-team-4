@@ -1,10 +1,8 @@
 import React from 'react';
-import TopBar from './TopBar.jsx';
-import NavBar from './NavBar.jsx';
-import Banner from './Banner.jsx';
-import './TopBar.css';
-import './NavBar.css';
-import './Banner.css';
+import TopBar from './TopBar/TopBar.jsx';
+import NavBar from './NavigationBar/NavBar.jsx';
+import './TopBar/TopBar.css';
+import './NavigationBar/NavBar.css';
 import './Header.css';
 
 class Header extends React.Component {
@@ -13,11 +11,9 @@ class Header extends React.Component {
             <div className='header'>
                 <TopBar />
                 <NavBar />
-                <div><Banner /></div>
             </div>
         );
     }
 }
 
-
-export default Header
+export default Header;

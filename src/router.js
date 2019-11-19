@@ -1,46 +1,17 @@
 import React from 'react';
-import {Router, Route, Switch, HashRouter, hashHistory} from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
-import App from './App.js';
 import Login from './Login/Login.jsx';
-import Register from './Register/Register.jsx'
-
+import Register from './Register/Register.jsx';
+import Home from './Home/Home.jsx';
+import Error from './Error/Error.jsx';
 
 const BasicRoute = () => (
-    <HashRouter history={hashHistory}>
-        <Switch>
-            <Route render={ () => <App /> } />
-            <Route exact path="/" component={App}/>
-            <Route exact path="/login" component={Login}/>
-            <Route exact path="/register" component={Register}/>
-        </Switch>
-    </HashRouter>
+    <Switch>
+        <Route exact path='/' component={Home} />
+        <Route exact path='/login' component={Login} />
+        <Route exact path='/register' component={Register} />
+        <Route component={Error} />
+    </Switch>
 );
-export default BasicRoute/*[
-    {title: 'Cat', 
-    icon: 'icon-home', 
-    routes:[
-      {name: 'Cat Foods', 
-      path: '/cat/foods', 
-      component: 'CatFoods'},
-      {name: 'Cat Toys', 
-      path: '/cat/toys', 
-      component: 'CatToys'},
-      {name: 'Cat Beds', 
-      path: '/cat/beds', 
-      component: 'CatBeds'},
-    ]},
-    {title: 'Dog', 
-    icon: 'icon-home', 
-    routes:[
-      {name: 'Dog Foods', 
-      path: '/dog/foods', 
-      component: 'DogFoods'},
-      {name: 'Dog Toys', 
-      path: '/dog/toys', 
-      component: 'DogToys'},
-      {name: 'Dog Beds', 
-      path: '/dog/beds', 
-      component: 'DogBeds'},
-    ]},
-]*/
+export default BasicRoute;
