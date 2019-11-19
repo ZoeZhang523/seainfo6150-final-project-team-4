@@ -1,0 +1,28 @@
+.navBar {
+    height: 100px;
+    background-color: rgb(68, 140, 212);
+    color:  white;
+  }
+  .menu {
+    display: flex;
+    flex-flow: row nowrap;
+    /*justify-content: ;*/
+  }
+  .navBar h3 {
+    line-height: 30px;
+    margin-left: 30px;
+  }
+  .cat{
+    color:white;
+    margin-left: 30px; 
+  }
+  #cat{
+    align-self: flex-start;
+    padding-bottom: 5px;
+  }
+  .dog {
+    color:white;
+    margin-left: 30px;
+  }
+
+
