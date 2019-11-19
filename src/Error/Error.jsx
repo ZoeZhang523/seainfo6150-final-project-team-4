@@ -1,11 +1,23 @@
-import React from 'react'
+import React from 'react';
+import style from './Error.module.css';
 
 const Error = () => {
     return (
-        <div>
-            The error page
+        <div className={style.error}>
+            <img
+                className={style.image}
+                src='/images/treefrog.jpg'
+                alt='error'
+            />
+            <div className={style.navigator}>
+                <p className={style.message}>
+                    Oops!
+                    <br />
+                    You entered a wrong page!
+                </p>
+            </div>
         </div>
-    )
-}
+    );
+};
 
-export default Error
+export default Error;

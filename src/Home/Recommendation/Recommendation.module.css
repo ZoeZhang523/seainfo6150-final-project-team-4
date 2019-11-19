@@ -1,0 +1,14 @@
+.recommendDisplay {
+    border: 1px solid black;
+    padding: 0px 10px 20px 10px;
+}
+.recommendList {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    justify-items: center;
+}
+.title {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
