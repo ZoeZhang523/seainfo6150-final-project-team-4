@@ -1,0 +1,40 @@
+{
+  "WholeHearted Grain Free All Life Stages Beef & Pea Formula Dry Dog Food": {
+    "petCategory": "dog",
+    "usage": "food",
+    "detailUsage": "dry food",
+
+    "mainImage": {
+      "_url": "https://s7d1.scene7.com/is/image/PETCO/2582201-center-1?$ProductDetail-large$",
+      "_height": "619",
+      "_width": "1100"
+    },
+
+    "detailImage":{
+      "_url": "https://s7d1.scene7.com/is/image/PETCO/2582201-back-1?$ProductDetail-large$",
+      "_height": "619",
+      "_width": "1100"
+    },
+    "name":"WholeHearted Grain Free All Life Stages Beef & Pea Formula Dry Dog Food",
+    "price":"$39.99",
+    "inventory": "30"
+  },
+  "WholeHearted Grain Free All Life Stages Beef & Pea Formula Dry Dog": {
+    "petCategory": "dog",
+    "usage": "food",
+    "detailUsage": "dry food",
+    "mainImage": {
+      "_url": "https://s7d1.scene7.com/is/image/PETCO/2582201-center-1?$ProductDetail-large$",
+      "_height": "619",
+      "_width": "1100"
+    },
+    "detailImage":{
+      "_url": "https://s7d1.scene7.com/is/image/PETCO/2582201-back-1?$ProductDetail-large$",
+      "_height": "619",
+      "_width": "1100"
+    },
+    "name":"WholeHearted Grain Free All Life Stages Beef & Pea Formula Dry Dog",
+    "price":"$39.99",
+    "inventory": "30"
+  }
+}

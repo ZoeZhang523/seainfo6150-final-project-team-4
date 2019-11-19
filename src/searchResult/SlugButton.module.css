@@ -1,0 +1,17 @@
+.button {
+    width:20rem;
+    justify-content: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    border-top: 1px solid #d8d8d8;
+    border-left: 1px solid #d1d1d1;
+    border-bottom: 1px solid #bababa;
+    border-right: 1px solid #d1d1d1;
+    border-radius: 10px;
+    padding-top: 1em;
+    padding-bottom: 0.7em;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    bottom:10px;
+}

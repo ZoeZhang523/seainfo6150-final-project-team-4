@@ -1,0 +1,19 @@
+.itemdetailcontainer{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    box-sizing: border-box;
+    width: 80%;
+    margin-right: 0px;
+}
+
+.name {
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+.price{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+

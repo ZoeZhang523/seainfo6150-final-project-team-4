@@ -1,0 +1,15 @@
+.form{
+    border-radius: 8px;
+    border: 1px #b2d3e1 solid;
+}
+
+.label{
+    margin-right: 20px;
+}
+
+.addtocart{
+    margin-left: 20px;
+    background-color: #ffefb9;
+    border-radius: 0px;
+    border: 0px;
+}
