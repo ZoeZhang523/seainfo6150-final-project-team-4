@@ -1,0 +1,21 @@
+.categoryDisplay {
+    border: 1px solid black;
+    padding: 0px 10px 20px 10px;
+}
+.categoryList {
+    display: grid;
+    grid-template-columns: 5% repeat(4, 22.5%) 5%;
+    justify-items: center;
+}
+.title {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.leftButton {
+    grid-column-start: 1;
+}
+.rightButton {
+    grid-column-start: 6;
+}
