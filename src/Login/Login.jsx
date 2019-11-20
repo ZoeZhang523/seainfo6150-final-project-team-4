@@ -42,6 +42,12 @@ class Login extends Component {
                         onClick={() => this.props.history.push('/')}>
                         Confirm
                     </button>
+                    <button
+                        variant='contained'
+                        className='button'
+                        onClick={() => this.props.history.push('/Register')}>
+                        Sign Up
+                    </button>
                 </form>
             </div>
         );

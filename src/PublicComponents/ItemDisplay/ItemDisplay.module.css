@@ -11,8 +11,9 @@
 .title {
     position: absolute;
     width: 100%;
-    bottom: 0px;
+    bottom: 10px;
     left: 0px;
     text-align: center;
     color: antiquewhite;
+    font-size: 1.6em;
 }

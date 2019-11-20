@@ -8,43 +8,43 @@ class Home extends Component {
     state = {
         BannerImg: [
             {
-                img: '/images/treefrog.jpg',
-                link: 'www.images.com'
+                img: '/images/banner_1.jpg',
+                link: '/Item-Detail-Page'
             },
             {
-                img: '/images/1.png',
-                link: 'www.images.com'
+                img: '/images/banner_2.jpg',
+                link: '/Item-Detail-Page'
             }
         ],
         Category: [
             {
                 title: 'c1',
-                img: '/images/treefrog.jpg',
+                img: '/images/category_1.jpg',
                 link: 'www.images.com'
             },
             {
                 title: 'c2',
-                img: '/images/treefrog.jpg',
+                img: '/images/category_2.jpg',
                 link: 'www.images.com'
             },
             {
                 title: 'c3',
-                img: '/images/treefrog.jpg',
+                img: '/images/category_3.jpg',
                 link: 'www.images.com'
             },
             {
                 title: 'c4',
-                img: '/images/treefrog.jpg',
+                img: '/images/category_4.jpg',
                 link: 'www.images.com'
             },
             {
                 title: 'c5',
-                img: '/images/treefrog.jpg',
+                img: '/images/category_5.jpg',
                 link: 'www.images.com'
             },
             {
                 title: 'c6',
-                img: '/images/treefrog.jpg',
+                img: '/images/category_6.jpg',
                 link: 'www.images.com'
             }
         ],
@@ -54,8 +54,8 @@ class Home extends Component {
                 itemList: [
                     {
                         title: 'a',
-                        img: '/images/treefrog.jpg',
-                        link: 'www.images.com'
+                        img: '/images/item_1.jpg',
+                        link: '/Item-Detail-Page'
                     }
                 ]
             },
@@ -64,16 +64,16 @@ class Home extends Component {
                 itemList: [
                     {
                         title: 'b',
-                        img: '/images/treefrog.jpg',
-                        link: 'www.images.com'
+                        img: '/images/item_2.jpg',
+                        link: '/Item-Detail-Page'
                     }
                 ]
             }
         ],
         LargeItemDisplay_1: {
             title: 'largeDisplay',
-            img: '/images/treefrog.jpg',
-            link: 'www.images.com',
+            img: '/images/item_large_1.jpg',
+            link: '/Item-Detail-Page',
             description: 'asdasdfa'
         }
     };
