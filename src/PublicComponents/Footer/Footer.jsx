@@ -13,7 +13,7 @@ class Footer extends Component {
                         <div className='customerServiceList'>
                             <ul className='animals'>
                                 <li>
-                                    <Link to='/account/order'>Track Order</Link>
+                                    <Link to='/OrderPage'>Track Order</Link>
                                 </li>
                                 <li>
                                     <Link to='/help'>Help</Link>

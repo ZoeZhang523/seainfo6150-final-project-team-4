@@ -5,7 +5,7 @@ class TopBar extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      searchResult: ""
+      searchResult: " "
     };
   }
   handleChange(event) {
@@ -29,7 +29,7 @@ class TopBar extends Component {
           <input className="search_text" />
           <button
             className="search_btn"
-            onClick={() => this.props.history.push("/searchresult")}
+            onClick={() => this.props.history.push("/Search-Result")}
           >
             Search
           </button>
@@ -44,7 +44,7 @@ class TopBar extends Component {
           </a>
         </div>
         <div className="account">
-          <a href="/Login">
+          <a href="/Register">
             <img
               width="30px"
               id="account"
