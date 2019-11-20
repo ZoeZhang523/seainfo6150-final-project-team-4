@@ -9,7 +9,7 @@ const ResultListItem = props => {
             <div>
                 <ResultImage title={props.item.name} url={props.item.mainImage._url}/>
                 <p>
-                    <a href="https://www.w3schools.com/html/">{props.item.name}</a>
+                    <a href="/Item-Detail-Page">{props.item.name}</a>
                 </p>
             </div>
             <SlugButton buttonText={props.item.price} > </SlugButton>

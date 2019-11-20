@@ -4,7 +4,7 @@ import styles from "./ResultImage.module.css";
 
 const ResultImage = props => {
     return (
-        <a href="default.asp">
+        <a href="/Item-Detail-Page">
             <img className={styles.mainimage} src={props.url} alt={props.name}/>
         </a>
     );
