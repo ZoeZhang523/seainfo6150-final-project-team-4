@@ -8,6 +8,7 @@ import Error from "./Error/Error.jsx";
 import ItemDetailIndex from "./itemDetailPage/ItemDetailIndex.js";
 import SearchResultIndex from "./searchResult/SearchResultIndex.js";
 import Cart from "./Cart/Cart.jsx";
+import OrderPage from "./orderPage/OrderPage.jsx";
 
 const BasicRoute = () => (
   <Switch>
@@ -17,6 +18,7 @@ const BasicRoute = () => (
     <Route exact path="/Item-Detail-Page" component={ItemDetailIndex} />
     <Route exact path="/Search-Result" component={SearchResultIndex} />
     <Route exact path="/Cart" component={Cart} />
+    <Route exact path="/OrderPage" component={OrderPage} />
     <Route component={Error} />
   </Switch>
 );

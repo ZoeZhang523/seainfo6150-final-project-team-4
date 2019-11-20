@@ -4,6 +4,7 @@ import AddedItem from "../components-cart/AddedItem";
 import style from "./Cart.module.css";
 import Summary from "../components-cart/Summary";
 import products from "../data/products.json";
+import ActionButton from "../orderPage/ActionButton";
 
 class Cart extends Component {
   getTotal = () => {
@@ -31,6 +32,10 @@ class Cart extends Component {
         </div>
         <div>
           <Summary total={this.getTotal()} />
+          <a id="orderButton" href="/OrderPage">
+            <ActionButton title={"Make An Order"} />
+            }/>
+          </a>
         </div>
       </div>
     );

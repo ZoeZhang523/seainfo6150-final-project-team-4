@@ -1,14 +1,8 @@
-.cartContent {
+.container {
   display: grid;
   grid-template-columns: 75% 25%;
   gap: 30px;
   border: solid;
   border-color: #fd8b64;
   padding: 10px 100px;
-}
-.ul {
-  list-style-type: none;
-}
-.orderButton {
-  background: #fd8b64;
 }

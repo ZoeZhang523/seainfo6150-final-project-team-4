@@ -1,0 +1,16 @@
+.container {
+  border: solid;
+  border-color: #fd8b64;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.fullName {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.location {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+}

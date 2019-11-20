@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  width: 50%;
+  height: 35px;
+  /*border-radius: 35%;*/
+  font-size: 14px;
+  background-color: #ff8c00;
+  color: #ffffff;
+}
+
+.button:hover {
+  background: #f7c45f;
+}
+
+.button:active {
+  transform: translate(5px);
+}
