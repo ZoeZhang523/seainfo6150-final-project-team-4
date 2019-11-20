@@ -3,17 +3,17 @@ import React, { Component } from "react";
 import AddedItem from "../components-cart/AddedItem";
 import style from "./Cart.module.css";
 import Summary from "../components-cart/Summary";
+import products from "../data/products.json";
 
 class Cart extends Component {
-  getTotal = props => {
+  getTotal = () => {
     var total = 0;
 
-    props.products.forEach(product => {
+    Object.values(products).forEach(product => {
       if (product.selected) {
         total = total + product.price;
       }
     });
-
     return total;
   };
 
@@ -22,7 +22,7 @@ class Cart extends Component {
       <div className={style.cartContent}>
         <div>
           <ul className={style.ul}>
-            {this.props.products.map(product => (
+            {Object.values(products).map(product => (
               <li key={product.name}>
                 <AddedItem product={product} />
               </li>
@@ -30,7 +30,7 @@ class Cart extends Component {
           </ul>
         </div>
         <div>
-          <Summary total={this.getTotal(this.props)} />
+          <Summary total={this.getTotal()} />
         </div>
       </div>
     );
