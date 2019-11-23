@@ -3,12 +3,13 @@ import style from "./AddedItem.module.css";
 
 class AddedItem extends Component {
   render() {
+    console.log(this.props.product);
     return (
       <div className={style.addedItemContainer}>
         <div className={style.imageBox}>
           <img
             className={style.img}
-            src="/images/treefrog.jpg"
+            src={this.props.product.mainImage._url}
             alt="tree frog"
           />
         </div>

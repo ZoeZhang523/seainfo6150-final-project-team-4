@@ -1,40 +1,396 @@
 {
-  "WholeHearted Grain Free All Life Stages Beef & Pea Formula Dry Dog Food": {
+  "ACANA Red Meat Dry Dog Food": {
+    "id": "0001",
     "petCategory": "dog",
     "usage": "food",
     "detailUsage": "dry food",
 
     "mainImage": {
-      "_url": "https://s7d1.scene7.com/is/image/PETCO/2582201-center-1?$ProductDetail-large$",
+      "_url": "https://petco.scene7.com/is/image/PETCO/2994037-center-1?$ProductDetail-xlarge$",
       "_height": "619",
       "_width": "1100"
     },
 
-    "detailImage":{
-      "_url": "https://s7d1.scene7.com/is/image/PETCO/2582201-back-1?$ProductDetail-large$",
+    "detailImage": {
+      "_url": "https://petco.scene7.com/is/image/PETCO/2994037-center-1?$ProductDetail-xlarge$",
       "_height": "619",
       "_width": "1100"
     },
-    "name":"WholeHearted Grain Free All Life Stages Beef & Pea Formula Dry Dog Food",
-    "price":"$39.99",
-    "inventory": "30"
+    "name": "ACANA Red Meat Dry Dog Food",
+    "price": 67.99,
+    "inventory": "30",
+    "selected": true
   },
-  "WholeHearted Grain Free All Life Stages Beef & Pea Formula Dry Dog": {
+  "ORIJEN Six Fish Dry Dog Food": {
+    "id": "0002",
     "petCategory": "dog",
     "usage": "food",
     "detailUsage": "dry food",
     "mainImage": {
-      "_url": "https://s7d1.scene7.com/is/image/PETCO/2582201-center-1?$ProductDetail-large$",
+      "_url": "https://petco.scene7.com/is/image/PETCO/2992218-center-1?$ProductDetail-xlarge$",
       "_height": "619",
       "_width": "1100"
     },
-    "detailImage":{
-      "_url": "https://s7d1.scene7.com/is/image/PETCO/2582201-back-1?$ProductDetail-large$",
+    "detailImage": {
+      "_url": "https://petco.scene7.com/is/image/PETCO/2992218-center-1?$ProductDetail-xlarge$",
       "_height": "619",
       "_width": "1100"
     },
-    "name":"WholeHearted Grain Free All Life Stages Beef & Pea Formula Dry Dog",
-    "price":"$39.99",
-    "inventory": "30"
+    "name": "ORIJEN Six Fish Dry Dog Food",
+    "price": 106.99,
+    "inventory": "30",
+    "selected": true
+  },
+  "Hill's Science Diet Adult Sensitive Stomach & Skin Chicken Recipe Dry Dog Food": {
+    "id": "0003",
+    "petCategory": "dog",
+    "usage": "food",
+    "detailUsage": "dry food",
+
+    "mainImage": {
+      "_url": "https://petco.scene7.com/is/image/PETCO/1327593-center-1?$ProductDetail-xlarge$",
+      "_height": "619",
+      "_width": "1100"
+    },
+
+    "detailImage": {
+      "_url": "https://petco.scene7.com/is/image/PETCO/1327593-center-1?$ProductDetail-xlarge$",
+      "_height": "619",
+      "_width": "1100"
+    },
+    "name": "Hill's Science Diet Adult Sensitive Stomach & Skin Chicken Recipe Dry Dog Food",
+    "price": 57.99,
+    "inventory": "30",
+    "selected": true
+  },
+  "KONG Squeezz Ball Dog Toy": {
+    "id": "0004",
+    "petCategory": "dog",
+    "usage": "toy",
+    "detailUsage": "dog toy",
+
+    "mainImage": {
+      "_url": "https://petco.scene7.com/is/image/PETCO/1435477-center-1?$tile-recommendations$",
+      "_height": "619",
+      "_width": "1100"
+    },
+
+    "detailImage": {
+      "_url": "https://petco.scene7.com/is/image/PETCO/1435477-center-1?$tile-recommendations$",
+      "_height": "619",
+      "_width": "1100"
+    },
+    "name": "KONG Squeezz Ball Dog Toy",
+    "price": 2.09,
+    "inventory": "30",
+    "selected": true
+  },
+  "KONG Tugga Wubba Dog Toy": {
+    "id": "0005",
+    "petCategory": "dog",
+    "usage": "toy",
+    "detailUsage": "dog toy",
+
+    "mainImage": {
+      "_url": "https://s7d1.scene7.com/is/image/PETCO/1373854-center-1?$ProductDetail-large$",
+      "_height": "619",
+      "_width": "1100"
+    },
+
+    "detailImage": {
+      "_url": "https://s7d1.scene7.com/is/image/PETCO/1373854-center-1?$ProductDetail-large$",
+      "_height": "619",
+      "_width": "1100"
+    },
+    "name": "KONG Tugga Wubba Dog Toy",
+    "price": 3.66,
+    "inventory": "30",
+    "selected": true
+  },
+  "KONG Wild Knots Bear Dog Tug Toy": {
+    "id": "0006",
+    "petCategory": "dog",
+    "usage": "toy",
+    "detailUsage": "dog toy",
+
+    "mainImage": {
+      "_url": "https://petco.scene7.com/is/image/PETCO/2330353-center-1?$ProductDetail-large$",
+      "_height": "619",
+      "_width": "1100"
+    },
+
+    "detailImage": {
+      "_url": "https://petco.scene7.com/is/image/PETCO/2330353-center-1?$ProductDetail-large$",
+      "_height": "619",
+      "_width": "1100"
+    },
+    "name": "KONG Wild Knots Bear Dog Tug Toy",
+    "price": 5.24,
+    "inventory": "30",
+    "selected": true
+  },
+  "Orthopedic Peaceful Nester Gray Dog Bed": {
+    "id": "0007",
+    "petCategory": "dog",
+    "usage": "bed",
+    "detailUsage": "dog bed",
+
+    "mainImage": {
+      "_url": "https://petco.scene7.com/is/image/PETCO/2964014-center-3?$tile-recommendations$",
+      "_height": "619",
+      "_width": "1100"
+    },
+
+    "detailImage": {
+      "_url": "https://petco.scene7.com/is/image/PETCO/2964014-center-3?$tile-recommendations$",
+      "_height": "619",
+      "_width": "1100"
+    },
+    "name": "Orthopedic Peaceful Nester Gray Dog Bed",
+    "price": 45.02,
+    "inventory": "30",
+    "selected": true
+  },
+  "Carolina Pet Company Classic Canvas Memory Foam Bolster Dog Bed": {
+    "id": "0008",
+    "petCategory": "dog",
+    "usage": "bed",
+    "detailUsage": "dog bed",
+
+    "mainImage": {
+      "_url": "https://petco.scene7.com/is/image/PETCO/3094671-center-1?$ProductDetail-large$",
+      "_height": "619",
+      "_width": "1100"
+    },
+
+    "detailImage": {
+      "_url": "https://petco.scene7.com/is/image/PETCO/3094671-center-1?$ProductDetail-large$",
+      "_height": "619",
+      "_width": "1100"
+    },
+    "name": "Carolina Pet Company Classic Canvas Memory Foam Bolster Dog Bed",
+    "price": 153.99,
+    "inventory": "30",
+    "selected": true
+  },
+  "Enchanted Home Pet Sullivan Brown Sofa": {
+    "id": "0009",
+    "petCategory": "dog",
+    "usage": "bed",
+    "detailUsage": "dog bed",
+
+    "mainImage": {
+      "_url": "https://petco.scene7.com/is/image/PETCO/3013886-center-1?$ProductDetail-large$",
+      "_height": "619",
+      "_width": "1100"
+    },
+
+    "detailImage": {
+      "_url": "https://petco.scene7.com/is/image/PETCO/3013886-center-1?$ProductDetail-large$",
+      "_height": "619",
+      "_width": "1100"
+    },
+    "name": "Enchanted Home Pet Sullivan Brown Sofa",
+    "price": 249.99,
+    "inventory": "30",
+    "selected": true
+  },
+  "Hill's Science Diet Adult Urinary & Hairball Control Chicken Recipe Dry Cat Food": {
+    "id": "0010",
+    "petCategory": "cat",
+    "usage": "food",
+    "detailUsage": "dry food",
+
+    "mainImage": {
+      "_url": "https://petco.scene7.com/is/image/PETCO/2459069-center-1?$ProductDetail-large$",
+      "_height": "619",
+      "_width": "1100"
+    },
+
+    "detailImage": {
+      "_url": "https://petco.scene7.com/is/image/PETCO/2459069-center-1?$ProductDetail-large$",
+      "_height": "619",
+      "_width": "1100"
+    },
+    "name": "Hill's Science Diet Adult Urinary & Hairball Control Chicken Recipe Dry Cat Food",
+    "price": 41.99,
+    "inventory": "30",
+    "selected": true
+  },
+  "Tiki Cat Puka Puka Luau Chicken Wet Cat Food": {
+    "id": "0011",
+    "petCategory": "cat",
+    "usage": "food",
+    "detailUsage": "dry food",
+
+    "mainImage": {
+      "_url": "https://petco.scene7.com/is/image/PETCO/2761840-center-1?$ProductDetail-large$",
+      "_height": "619",
+      "_width": "1100"
+    },
+
+    "detailImage": {
+      "_url": "https://petco.scene7.com/is/image/PETCO/2761840-center-1?$ProductDetail-large$",
+      "_height": "619",
+      "_width": "1100"
+    },
+    "name": "Tiki Cat Puka Puka Luau Chicken Wet Cat Food",
+    "price": 19.37,
+    "inventory": "30",
+    "selected": true
+  },
+  "ACANA Meadowlands Dry Cat Food": {
+    "id": "0012",
+    "petCategory": "cat",
+    "usage": "food",
+    "detailUsage": "dry food",
+
+    "mainImage": {
+      "_url": "https://petco.scene7.com/is/image/PETCO/2994660-center-1?$ProductDetail-large$",
+      "_height": "619",
+      "_width": "1100"
+    },
+
+    "detailImage": {
+      "_url": "https://petco.scene7.com/is/image/PETCO/2994660-center-1?$ProductDetail-large$",
+      "_height": "619",
+      "_width": "1100"
+    },
+    "name": "ACANA Meadowlands Dry Cat Food",
+    "price": 50.99,
+    "inventory": "30",
+    "selected": true
+  },
+  "Leaps & Bounds Faux Leather Mouse Cat Toy with Rattle & Catnip": {
+    "id": "0013",
+    "petCategory": "cat",
+    "usage": "toy",
+    "detailUsage": "cat toy",
+
+    "mainImage": {
+      "_url": "https://petco.scene7.com/is/image/PETCO/2312016-left-1?$ProductDetail-large$",
+      "_height": "619",
+      "_width": "1100"
+    },
+
+    "detailImage": {
+      "_url": "https://petco.scene7.com/is/image/PETCO/2312016-left-1?$ProductDetail-large$",
+      "_height": "619",
+      "_width": "1100"
+    },
+    "name": "Leaps & Bounds Faux Leather Mouse Cat Toy with Rattle & Catnip",
+    "price": 1.02,
+    "inventory": "30",
+    "selected": true
+  },
+  "You & Me Ramp Cardboard Cat Scratcher With Toy": {
+    "id": "0014",
+    "petCategory": "cat",
+    "usage": "toy",
+    "detailUsage": "cat toy",
+
+    "mainImage": {
+      "_url": "https://petco.scene7.com/is/image/PETCO/2654585-center-1?$ProductDetail-large$",
+      "_height": "619",
+      "_width": "1100"
+    },
+
+    "detailImage": {
+      "_url": "https://petco.scene7.com/is/image/PETCO/2654585-center-1?$ProductDetail-large$",
+      "_height": "619",
+      "_width": "1100"
+    },
+    "name": "You & Me Ramp Cardboard Cat Scratcher With Toy",
+    "price": 16.99,
+    "inventory": "30",
+    "selected": true
+  },
+  "Leaps & Bounds Cuddle Monkey Catnip Cat Toy": {
+    "id": "0015",
+    "petCategory": "cat",
+    "usage": "toy",
+    "detailUsage": "cat toy",
+
+    "mainImage": {
+      "_url": "https://petco.scene7.com/is/image/PETCO/2312278-right-1?$tile-recommendations$",
+      "_height": "619",
+      "_width": "1100"
+    },
+
+    "detailImage": {
+      "_url": "https://petco.scene7.com/is/image/PETCO/2312278-right-1?$tile-recommendations$",
+      "_height": "619",
+      "_width": "1100"
+    },
+    "name": "Leaps & Bounds Cuddle Monkey Catnip Cat Toy",
+    "price": 3.99,
+    "inventory": "30",
+    "selected": true
+  },
+  "Harmony Tan Faux-Fur Cat Bed": {
+    "id": "0016",
+    "petCategory": "cat",
+    "usage": "bed",
+    "detailUsage": "cat bed",
+
+    "mainImage": {
+      "_url": "https://petco.scene7.com/is/image/PETCO/3055867-center-5?$tile-recommendations$",
+      "_height": "619",
+      "_width": "1100"
+    },
+
+    "detailImage": {
+      "_url": "https://petco.scene7.com/is/image/PETCO/3055867-center-5?$tile-recommendations$",
+      "_height": "619",
+      "_width": "1100"
+    },
+    "name": "Harmony Tan Faux-Fur Cat Bed",
+    "price": 24.99,
+    "inventory": "30",
+    "selected": true
+  },
+  "Harmony Cozy Cat Mat in Cream": {
+    "id": "0017",
+    "petCategory": "cat",
+    "usage": "bed",
+    "detailUsage": "cat bed",
+
+    "mainImage": {
+      "_url": "https://s7d1.scene7.com/is/image/PETCO/2668848-center-1?$ProductDetail-large-new$",
+      "_height": "619",
+      "_width": "1100"
+    },
+
+    "detailImage": {
+      "_url": "https://s7d1.scene7.com/is/image/PETCO/2668848-center-1?$ProductDetail-large-new$",
+      "_height": "619",
+      "_width": "1100"
+    },
+    "name": "Harmony Cozy Cat Mat in Cream",
+    "price": 6.99,
+    "inventory": "30",
+    "selected": true
+  },
+  "Harmony Oval Cat Bed in Cream": {
+    "id": "0018",
+    "petCategory": "cat",
+    "usage": "bed",
+    "detailUsage": "cat bed",
+
+    "mainImage": {
+      "_url": "https://s7d1.scene7.com/is/image/PETCO/2668901-center-1?$ProductDetail-large-new$",
+      "_height": "619",
+      "_width": "1100"
+    },
+
+    "detailImage": {
+      "_url": "https://s7d1.scene7.com/is/image/PETCO/2668901-center-1?$ProductDetail-large-new$",
+      "_height": "619",
+      "_width": "1100"
+    },
+    "name": "Harmony Oval Cat Bed in Cream",
+    "price": 5.02,
+    "inventory": "30",
+    "selected": true
   }
 }
