@@ -9,7 +9,7 @@ const ItemDetailSlide = props => {
             <p>
                 {props.user.address}
             </p>
-            <form action={"/Cart"}>
+            <form className={styles.addtocartform} action={"/Cart"}>
                 <input className={styles.addtocart} type="submit" value={"add to cart"} />
             </form>
         </div>

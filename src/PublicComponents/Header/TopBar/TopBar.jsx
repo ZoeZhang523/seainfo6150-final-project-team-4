@@ -10,7 +10,7 @@ class TopBar extends Component {
             searchResult: ' '
         };
     }
-    handleChange(event) {
+    handleChange = (event) => {
         this.setState({
             searchResult: event.target.value
         });
@@ -28,16 +28,22 @@ class TopBar extends Component {
                     </a>
                 </div>
                 <div className='search_box'>
-                    <input className='search_text' />
-                    <Link to='/Search-Result'>
-                        <button className='search_btn'>Search</button>
-                    </Link>
+                    <form className="search_form">
+                        <input 
+                        className='search_text' 
+                        type='search'
+                        value={this.state.searchresult}
+                        onChange={this.handleChange}/>
+                        <Link to='/Search-Result'>
+                            <button className='search_btn'>Search</button>
+                        </Link>
+                    </form>
                 </div>
                 <div className='cart'>
                     <a href='/Cart'>
                         <img
                             id='cart'
-                            src='https://raw.githubusercontent.com/baizn/shop-website/master/resource/img/shopcar.png'
+                            src='https://www.paintoolkit.org/assets/img/icons/icon-shopping-cart.svg'
                             alt='cart'
                         />
                     </a>
