@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import items from "../data/item.json";
-import styles from "../searchResult/ResultList.module.css";
+import styles from "./Category.module.css";
 import ResultListItem from "../searchResult/ResultListItem";
 import CategoryList from "./CategoryList";
 
@@ -51,7 +51,7 @@ class Category extends Component {
         console.log(category_dict);
         return (
             <div className={styles.container}>
-                <h1>{this.state.petCategory}</h1>
+                <h1 className={styles.petCategory}>{this.state.petCategory}</h1>
                 {
                     Object.entries(category_dict).map(([keys, search_result_item_list]) => (
                             <CategoryList search_result_item_list={search_result_item_list} keys={keys}/>

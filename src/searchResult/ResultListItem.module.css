@@ -1,4 +1,3 @@
-
 a:link {
     color: black;
 }
@@ -9,4 +8,9 @@ a:visited {
 
 .itemContainer{
     width: 20rem;
+    height: 200px;
+}
+
+.price{
+    font-weight:bold;
 }

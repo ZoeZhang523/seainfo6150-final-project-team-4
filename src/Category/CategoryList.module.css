@@ -1,0 +1,10 @@
+.container{
+    grid-column: 1 / 4;
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
+}
+
+.detailUsage{
+    grid-column: 1 / 4;
+    color: #fd8b64;
+}

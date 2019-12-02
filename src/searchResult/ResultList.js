@@ -27,8 +27,8 @@ class ResultList extends Component {
         )}
         return (
             <div className={styles.container}>
-                {Object.values(search_result_dict).map((search_resultitem) => (
-                    <ResultListItem item={search_resultitem}/>
+                {Object.values(search_result_dict).map((search_result_item) => (
+                    <ResultListItem item={search_result_item}/>
                     )
                 )}
         </div>)
