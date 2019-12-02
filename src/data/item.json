@@ -3,7 +3,7 @@
     "id": "0001",
     "petCategory": "dog",
     "usage": "food",
-    "detailUsage": "dry food",
+    "detailUsage": "dry_food",
     "name": "ACANA Red Meat Dry Dog Food",
     "price": 67.99,
     "inventory": "30",
@@ -29,7 +29,7 @@
     "id": "0002",
     "petCategory": "dog",
     "usage": "food",
-    "detailUsage": "dry food",
+    "detailUsage": "dry_food",
     "name": "ORIJEN Six Fish Dry Dog Food",
     "price": 106.99,
     "inventory": "30",
@@ -55,7 +55,7 @@
     "id": "0003",
     "petCategory": "dog",
     "usage": "food",
-    "detailUsage": "wet food",
+    "detailUsage": "wet_food",
     "name": "Hill's Science Diet Adult 7+ Savory Stew with Beef & Vegetables Canned Dog Food",
     "price": 23.64,
     "inventory": "30",
@@ -80,7 +80,7 @@
   "Blue Buffalo Blue Homestyle Recipe Senior Chicken Dinner with Garden Vegetables Wet Dog Food": {
     "petCategory": "dog",
     "usage": "food",
-    "detailUsage": "wet food",
+    "detailUsage": "wet_food",
     "name": "Blue Buffalo Blue Homestyle Recipe Senior Chicken Dinner with Garden Vegetables Wet Dog Food",
     "price": 33.48 ,
     "inventory": "30",
@@ -106,12 +106,11 @@
     "id": "0005",
     "petCategory": "dog",
     "usage": "toy",
-    "detailUsage": "dog toy",
     "name": "KONG Tugga Wubba Dog Toy",
     "price": 3.66,
     "inventory": "30",
     "selected": true,
-
+    "detailUsage": "play",
     "mainImage": {
       "_url": "https://s7d1.scene7.com/is/image/PETCO/1373854-center-1?$ProductDetail-large$"
     },
@@ -130,12 +129,11 @@
     "id": "0006",
     "petCategory": "dog",
     "usage": "toy",
-    "detailUsage": "dog toy",
     "name": "KONG Wild Knots Bear Dog Tug Toy",
     "price": 9.50,
     "inventory": "30",
     "selected": true,
-
+    "detailUsage": "toy",
     "mainImage": {
       "_url": "https://petco.scene7.com/is/image/PETCO/2818885-center-1?$ProductDetail-large$"
     },
@@ -154,12 +152,11 @@
     "id": "0007",
     "petCategory": "dog",
     "usage": "bed",
-    "detailUsage": "dog bed",
     "name": "Carolina Pet Company Classic Canvas Memory Foam Bolster Dog Bed",
     "price": 153.99,
     "inventory": "30",
     "selected": true,
-
+    "detailUsage": "toy",
     "mainImage": {
       "_url": "https://petco.scene7.com/is/image/PETCO/3094671-center-1?$ProductDetail-large$"
     },
@@ -180,12 +177,11 @@
     "id": "0008",
     "petCategory": "dog",
     "usage": "bed",
-    "detailUsage": "dog bed",
     "name": "Enchanted Home Pet Sullivan Brown Sofa",
     "price": 249.99,
     "inventory": "30",
     "selected": true,
-
+    "detailUsage": "toy",
     "mainImage": {
       "_url": "https://petco.scene7.com/is/image/PETCO/3013886-center-1?$ProductDetail-large$"
     },
@@ -204,7 +200,7 @@
     "id": "0009",
     "petCategory": "cat",
     "usage": "food",
-    "detailUsage": "dry food",
+    "detailUsage": "dry_food",
     "name": "Hill's Science Diet Adult Urinary & Hairball Control Chicken Recipe Dry Cat Food",
     "price": 41.99,
     "inventory": "30",
@@ -230,7 +226,7 @@
     "id": "0010",
     "petCategory": "cat",
     "usage": "food",
-    "detailUsage": "dry food",
+    "detailUsage": "dry_food",
     "name": "ACANA Meadowlands Dry Cat Food",
     "price": 50.99,
     "inventory": "30",
@@ -256,7 +252,7 @@
     "id": "0011",
     "petCategory": "cat",
     "usage": "food",
-    "detailUsage": "wet food",
+    "detailUsage": "wet_food",
     "name": "Tiki Cat Puka Puka Luau Chicken Wet Cat Food",
     "price": 19.37,
     "inventory": "30",
@@ -278,7 +274,7 @@
     "id": "0012",
     "petCategory": "cat",
     "usage": "food",
-    "detailUsage": "wet food",
+    "detailUsage": "wet_food",
     "name": "Royal Canin Mother & Babycat Ultra-Soft Mousse in Sauce Variety Pack Wet Cat Food",
     "price": 16.64,
     "inventory": "30",
@@ -304,12 +300,11 @@
     "id": "0013",
     "petCategory": "cat",
     "usage": "toy",
-    "detailUsage": "cat toy",
     "name": "Leaps & Bounds Faux Leather Mouse Cat Toy with Rattle & Catnip",
     "price": 1.02,
     "inventory": "30",
     "selected": true,
-
+    "detailUsage": "toy",
     "mainImage": {
       "_url": "https://petco.scene7.com/is/image/PETCO/2312016-left-1?$ProductDetail-large$"
     },
@@ -326,12 +321,11 @@
     "id": "0014",
     "petCategory": "cat",
     "usage": "toy",
-    "detailUsage": "cat toy",
     "name": "You & Me Ramp Cardboard Cat Scratcher With Toy",
     "price": 16.99,
     "inventory": "30",
     "selected": true,
-
+    "detailUsage": "toy",
     "mainImage": {
       "_url": "https://petco.scene7.com/is/image/PETCO/2915503-center-1?$ProductDetail-large$"
     },
@@ -350,12 +344,11 @@
     "id": "0015",
     "petCategory": "cat",
     "usage": "bed",
-    "detailUsage": "cat bed",
     "name": "Harmony Tan Faux-Fur Cat Bed",
     "price": 24.99,
     "inventory": "30",
     "selected": true,
-
+    "detailUsage": "toy",
     "mainImage": {
       "_url": "https://petco.scene7.com/is/image/PETCO/3055867-center-5?$tile-recommendations$"
     },
@@ -375,12 +368,11 @@
     "id": "0016",
     "petCategory": "cat",
     "usage": "bed",
-    "detailUsage": "cat bed",
     "name": "Harmony Oval Cat Bed in Cream",
     "price": 5.02,
     "inventory": "30",
     "selected": true,
-
+    "detailUsage": "toy",
     "mainImage": {
       "_url": "https://s7d1.scene7.com/is/image/PETCO/2668901-center-1?$ProductDetail-large-new$"
     },
@@ -393,14 +385,13 @@
 
   "Supreme Selective Diets Junior Rabbit Food": {
     "id": "0017",
-    "petCategory": "small pet",
+    "petCategory": "small_pet",
     "usage": "food",
-    "detailUsage": "food",
     "name": "Supreme Selective Diets Junior Rabbit Food",
     "price": 10.59,
     "inventory": "30",
     "selected": true,
-
+    "detailUsage": "toy",
     "mainImage": {
       "_url": "https://petco.scene7.com/is/image/PETCO/3078823-centre-1?$ProductDetail-large$"
     },
@@ -419,14 +410,13 @@
 
   "Marshall Pet Products Canned Chicken Blend Ferret Diet Topper": {
     "id": "0018",
-    "petCategory": "small pet",
+    "petCategory": "small_pet",
     "usage": "food",
-    "detailUsage": "food",
     "name": "Marshall Pet Products Canned Chicken Blend Ferret Diet Topper",
     "price": 4.79,
     "inventory": "30",
     "selected": true,
-
+    "detailUsage": "toy",
     "mainImage": {
       "_url": "https://petco.scene7.com/is/image/PETCO/2915407-center-1?$ProductDetail-large$"
     },
@@ -441,14 +431,13 @@
 
   "WARE Willow Branch Ball Chew Toy": {
     "id": "0019",
-    "petCategory": "small pet",
+    "petCategory": "small_pet",
     "usage": "toy",
-    "detailUsage": "small pet toy",
     "name": "WARE Willow Branch Ball Chew Toy",
     "price": 3.79,
     "inventory": "30",
     "selected": true,
-
+    "detailUsage": "toy",
     "mainImage": {
       "_url": "https://s7d1.scene7.com/is/image/PETCO/1368729-center-1?$ProductDetail-large$"
     },
@@ -461,14 +450,13 @@
 
   "Multipet Medium Yellow Pineapple House Small Animal Hideaway": {
     "id": "0020",
-    "petCategory": "small pet",
+    "petCategory": "small_pet",
     "usage": "bed",
-    "detailUsage": "small pet bed",
     "name": "Multipet Medium Yellow Pineapple House Small Animal Hideaway",
     "price": 4.79,
     "inventory": "30",
     "selected": true,
-
+    "detailUsage": "toy",
     "mainImage": {
       "_url": "https://s7d1.scene7.com/is/image/PETCO/2160147-left-1?$ProductDetail-large$"
     },

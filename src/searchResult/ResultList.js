@@ -1,22 +1,38 @@
-import React from "react";
-import PropTypes from 'prop-types';
+import React,{Component} from 'react';
+import items from "../data/item.json"
 import ResultListItem from "./ResultListItem";
-import styles from "./ResultList.module.css";
+import styles from "./ResultList.module.css"
 
+class ResultList extends Component {
+   constructor(props){
+       super(props);
+       this.state = {
+           keyword:''
+       };
+    };
 
-const ResultList = props => {
-    return (
-        <ul className={styles.container}>
-            {props.items.map(item => (
-            <li className={styles.item}>
-                <ResultListItem item={item}/>
-            </li>
-            ))}
-        </ul>
-        )
-};
+    componentDidMount(){
+        console.log(this.props);
+        this.setState({
+            keyword:this.props.match.params.keyword
+        })
+    }
 
-ResultList.propTypes = {
-    items: PropTypes.array.isRequired
-};
+    render() {
+        let search_result_dict = {};
+        {Object.values(items).map((item, key) => {
+            if(item.name.toLowerCase().includes(this.state.keyword)){
+                search_result_dict[key] = item;
+            }}
+        )}
+        return (
+            <div className={styles.container}>
+                {Object.values(search_result_dict).map((search_resultitem) => (
+                    <ResultListItem item={search_resultitem}/>
+                    )
+                )}
+        </div>)
+    }
+}
+
 export default ResultList;
