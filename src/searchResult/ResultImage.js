@@ -4,7 +4,7 @@ import styles from "./ResultImage.module.css";
 
 const ResultImage = props => {
     return (
-        <a href="/Item-Detail-Page">
+        <a href={"/Item-Detail-Page/" + props.id}>
             <img className={styles.mainimage} src={props.url} alt={props.name}/>
         </a>
     );
@@ -12,7 +12,7 @@ const ResultImage = props => {
 
 ResultImage.propTypes = {
     url: PropTypes.string.isRequired,
-    name: PropTypes.string.isRequired
+    name: PropTypes.string.isRequired,
 };
 
 export default ResultImage;

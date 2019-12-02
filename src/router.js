@@ -5,7 +5,7 @@ import Login from "./Login/Login.jsx";
 import Register from "./Register/Register.jsx";
 import Home from "./Home/Home.jsx";
 import Error from "./Error/Error.jsx";
-import ItemDetailIndex from "./itemDetailPage/ItemDetailIndex.js";
+import ItemDetailPage from "./itemDetailPage/ItemDetailPage.js";
 import ResultList from "./searchResult/ResultList.js";
 import Category from "./Category/Category.jsx";
 import Cart from "./Cart/Cart.jsx";
@@ -17,7 +17,7 @@ const BasicRoute = () => (
     <Route exact path="/" component={Home} />
     <Route exact path="/login" component={Login} />
     <Route exact path="/register" component={Register} />
-    <Route path="/Item-Detail-Page/:productId" component={ItemDetailIndex} />
+    <Route path="/Item-Detail-Page/:Id" component={ItemDetailPage} />
     <Route path="/Search-Result/:keyword" component={ResultList} />
     <Route path="/Category/:petCategory/:usage?/:detailUsage?" component={Category} />
     <Route exact path="/Cart" component={Cart} />

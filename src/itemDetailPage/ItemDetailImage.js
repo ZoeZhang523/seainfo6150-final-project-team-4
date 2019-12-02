@@ -1,12 +1,29 @@
-import React from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types'
 
-const ItemDetailImage = props => {
-    return (
-            <img src={props.url} alt={props.title}/>
-            /*<img src={props.detailImage._url} alt={props.detailImage.alt}/>*/
-    );
-};
+class ItemDetailImage extends Component{
+    constructor(props) {
+        super(props);
+        this.state = {
+            url: this.props.detailImages[0]
+        };
+    }
+
+    render() {
+        const clickImage = (detailImageSrc) => {
+            this.setState({
+                url: detailImageSrc
+            });
+        };
+        return (
+            <div>
+            <img src={this.state.url} />
+                {this.props.detailImages.map((detailImageSrc)=>(
+                <img src={detailImageSrc} onClick={() => clickImage(detailImageSrc)} />
+                ))}
+            </div>
+        )}
+}
 
 ItemDetailImage.propTypes = {
     url: PropTypes.string.isRequired,

@@ -5,7 +5,7 @@ import styles from "./SlugButton.module.css";
 class SlugButton extends React.Component {
 
     buttonOnClick = (e)=>{
-        // window.location.href = "http://www.w3schools.com";
+        window.location.href = "/Item-Detail-Page/" + this.props.id;
     };
 
     render() {

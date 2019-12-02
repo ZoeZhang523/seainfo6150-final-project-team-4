@@ -9,13 +9,17 @@ const ItemDetail = props => {
     return (
         <section className={styles.itemdetailcontainer}>
             <div>
-                <ItemDetailImage title={props.item.name} url={props.item.detailImage._url}/>
+                <ItemDetailImage title={props.item.name} detailImages={props.item.detailImages}/>
             </div>
             <div>
             <p className={styles.name}>{props.item.name}</p>
             <p className={styles.price}>{props.item.price}</p>
             <QuantityForm inventory={props.item.inventory}/>
+            <form className={styles.addtocartform} action={"/Cart"}>
+                <input className={styles.addtocart} type="submit" value={"add to cart"} />
+            </form>
             </div>
+
         </section>
     )
 };

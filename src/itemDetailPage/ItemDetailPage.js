@@ -1,36 +1,37 @@
-import React from "react";
+import React,{Component} from "react";
 import PropTypes from 'prop-types';
 import ItemDetail from './ItemDetail';
-import ItemDetailSlide from './ItemDetailSlide';
-import styles from './ItemDetailPage.module.css'
+import styles from './ItemDetailPage.module.css';
+import items from '../data/item.json'
 
 
-const ItemDetailPage = props => {
-    return(
-        <section className={styles.itemdetailcontainer}>
-            <div >
-                {props.items.map(item => {
-                    if (item.name === "WholeHearted Grain Free All Life Stages Beef & Pea Formula Dry Dog Food"){
+class ItemDetailPage extends Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            Id:''
+        };
+    };
+
+    componentDidMount(){
+        console.log(this.props);
+        this.setState({
+            Id:this.props.match.params.Id
+        })
+    }
+
+    render() {
+        return(
+            <section className={styles.itemdetailcontainer}>
+                {Object.values(items).map(item => {
+                    if (item.id === this.state.Id){
                         return <ItemDetail item={item} />
                     }
                     return
                 })}
-            </div>
-
-            <div>
-                 <p>Deliver It To Me</p>
-                {props.users.map(user => {
-                    if (user.name === "user1"){
-                        return <ItemDetailSlide user={user}/>
-                     }
-                    return
-                 })}
-            </div>
-        </section>
-    )
+            </section>
+        )
+    }
 }
-ItemDetailPage.propTypes = {
-    items: PropTypes.array.isRequired,
-    user: PropTypes.array.isRequired
-};
+
 export default ItemDetailPage;
