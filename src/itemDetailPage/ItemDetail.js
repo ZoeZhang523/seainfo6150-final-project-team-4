@@ -20,7 +20,7 @@ const ItemDetail = props => {
             </div>
             <div className={styles.description}>
                 <h3 className={styles.descriptionTitle}>Description</h3>
-                <p className={styles.descriptionText}>{props.item.Description.replace("\n"," ")}</p>
+                <text className={styles.descriptionText}>{props.item.Description}</text>
             </div>
 
         </section>
