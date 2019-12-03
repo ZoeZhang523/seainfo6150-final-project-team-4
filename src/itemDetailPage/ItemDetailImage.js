@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
+import styles from "./ItemDetailImage.module.css"
 
 class ItemDetailImage extends Component{
     constructor(props) {
@@ -16,10 +17,10 @@ class ItemDetailImage extends Component{
             });
         };
         return (
-            <div>
-            <img src={this.state.url} />
+            <div className={styles.imageContainer}>
+            <img className={styles.imageState} src={this.state.url} />
                 {this.props.detailImages.map((detailImageSrc)=>(
-                <img src={detailImageSrc} onClick={() => clickImage(detailImageSrc)} />
+                <img className={styles.imageButton} src={detailImageSrc} onClick={() => clickImage(detailImageSrc)} />
                 ))}
             </div>
         )}

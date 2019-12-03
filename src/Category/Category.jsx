@@ -51,7 +51,7 @@ class Category extends Component {
         console.log(category_dict);
         return (
             <div className={styles.container}>
-                <h1 className={styles.petCategory}>{this.state.petCategory}</h1>
+                <h1 className={styles.petCategory}>{this.state.petCategory.replace("_", " ")}</h1>
                 {
                     Object.entries(category_dict).map(([keys, search_result_item_list]) => (
                             <CategoryList search_result_item_list={search_result_item_list} keys={keys}/>

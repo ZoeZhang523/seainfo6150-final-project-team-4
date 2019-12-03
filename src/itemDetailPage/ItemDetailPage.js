@@ -1,5 +1,4 @@
 import React,{Component} from "react";
-import PropTypes from 'prop-types';
 import ItemDetail from './ItemDetail';
 import styles from './ItemDetailPage.module.css';
 import items from '../data/item.json'
