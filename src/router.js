@@ -10,7 +10,7 @@ import ResultList from "./searchResult/ResultList.js";
 import Category from "./Category/Category.jsx";
 import Cart from "./Cart/Cart.jsx";
 import OrderPage from "./orderPage/OrderPage.jsx";
-
+import Form from "./Form/Form.jsx";
 
 const BasicRoute = () => (
   <Switch>
@@ -19,9 +19,13 @@ const BasicRoute = () => (
     <Route exact path="/register" component={Register} />
     <Route path="/Item-Detail-Page/:Id" component={ItemDetailPage} />
     <Route path="/Search-Result/:keyword" component={ResultList} />
-    <Route path="/Category/:petCategory/:usage?/:detailUsage?" component={Category} />
+    <Route
+      path="/Category/:petCategory/:usage?/:detailUsage?"
+      component={Category}
+    />
     <Route exact path="/Cart" component={Cart} />
     <Route exact path="/OrderPage" component={OrderPage} />
+    <Route exact path="/Form" component={Form} />
     <Route component={Error} />
   </Switch>
 );
