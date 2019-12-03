@@ -1,16 +1,30 @@
-a:link {
+a{
     color: black;
 }
-
-a:visited {
-    color: cornflowerblue;
-}
-
 .itemContainer{
-    width: 20rem;
     height: 200px;
 }
 
+@media screen and (min-width: 500px){
+    .itemContainer {
+        width: 210px;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .itemContainer {
+        width: 220px;
+    }
+}
+
+@media screen and (min-width: 1350px){
+    .itemContainer {
+        width: 250px;
+    }
+}
+
+
 .price{
     font-weight:bold;
+    margin-top: 20px;
 }

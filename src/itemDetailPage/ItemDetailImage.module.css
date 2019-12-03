@@ -3,9 +3,26 @@
     grid-template-columns:repeat(4,25%);
     grid-row-gap: 20px;
     grid-column-gap: 2px;
-    width: 250px;
-
 }
+
+@media screen and (min-width: 500px){
+    .imageContainer {
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 1046px){
+    .imageContainer {
+        width: 230px;
+    }
+}
+
+@media screen and (min-width: 1350px){
+    .imageContainer {
+        width: 250px;
+    }
+}
+
 
 .imageState{
     grid-column: 1/5;

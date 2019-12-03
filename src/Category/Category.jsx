@@ -1,7 +1,6 @@
 import React,{Component} from 'react';
 import items from "../data/item.json";
 import styles from "./Category.module.css";
-import ResultListItem from "../searchResult/ResultListItem";
 import CategoryList from "./CategoryList";
 
 
@@ -25,7 +24,7 @@ class Category extends Component {
     }
     render() {
         let category_dict = {};
-        {Object.values(items).map((item, key) => {
+        {Object.values(items).map((item) => {
             if(item.detailUsage.toLowerCase()===(this.state.detailUsage) ){
                 if(item.usage.toLowerCase()===(this.state.usage) && item.petCategory.toLowerCase()===(this.state.petCategory)){
                     if(typeof category_dict[item.detailUsage] === 'undefined'){

@@ -6,7 +6,7 @@ import styles from "./ItemDetail.module.css";
 
 const ItemDetail = props => {
     return (
-        <section className={styles.itemdetailcontainer}>
+        <section className={styles.itemDetailContainer}>
             <div>
                 <ItemDetailImage title={props.item.name} detailImages={props.item.detailImages}/>
             </div>

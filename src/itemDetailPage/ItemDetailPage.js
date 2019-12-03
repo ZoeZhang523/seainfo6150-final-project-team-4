@@ -21,7 +21,7 @@ class ItemDetailPage extends Component {
 
     render() {
         return(
-            <section className={styles.itemdetailcontainer}>
+            <section className={styles.itemDetailContainer}>
                 {Object.values(items).map(item => {
                     if (item.id === this.state.Id){
                         return <ItemDetail item={item} />
