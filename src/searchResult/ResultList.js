@@ -26,13 +26,8 @@ class ResultList extends Component {
         });
         return (
             <div className={styles.container}>
-<<<<<<< HEAD
                 {search_result_dict.map((search_result_item) => (
                     <ResultListItem item={search_result_item} />
-=======
-                {Object.values(search_result_dict).map((search_result_item) => (
-                    <ResultListItem key={search_result_item.id} item={search_result_item} />
->>>>>>> 471cc0815f8453db7c89621c357ab80764f1d86f
                 ))}
             </div>
         );
