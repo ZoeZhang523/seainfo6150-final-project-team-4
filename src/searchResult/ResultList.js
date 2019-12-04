@@ -4,26 +4,16 @@ import ResultListItem from './ResultListItem';
 import styles from './ResultList.module.css';
 
 class ResultList extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            keyword: ''
-        };
-    }
-
-    componentDidMount() {
-        this.setState({
-            keyword: this.props.match.params.keyword
-        });
-    }
 
     render() {
+        const keyword = this.props.match.params.keyword;
         let search_result_dict = {};
         Object.values(items).forEach((item, key) => {
-            if (item.name.toLowerCase().includes(this.state.keyword)) {
+            if (item.name.toLowerCase().includes(keyword)) {
                 search_result_dict[key] = item;
             }
         });
+        console.log(search_result_dict);
         return (
             <div className={styles.container}>
                 {Object.values(search_result_dict).map((search_result_item) => (
