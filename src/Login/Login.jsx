@@ -8,19 +8,12 @@ class Login extends Component {
             email: '',
             password: ''
         };
-    };
-    handleChange1 = (event) => {
-        var email = event.target.email;
-        this.setState({email: email});
-      };
-      handleChange2 = (event) => {
-        var password = event.target.password;
-        this.setState({password: password});
-      };
+    }
+
     render() {
         return (
             <div className='login'>
-                <form className="login_form">
+                <form className='login_form'>
                     <div className='title'>
                         <span>Log In</span>
                     </div>
@@ -30,8 +23,6 @@ class Login extends Component {
                             type='email'
                             className='email'
                             placeholder=' Please enter your email'
-                            value={this.state.email}
-                            onChange={this.handleChange1}
                         />
                     </div>
                     <div className='passwordCol'>
@@ -40,8 +31,6 @@ class Login extends Component {
                             type='password'
                             className='pwd'
                             placeholder=' Please enter your password'
-                            value={this.state.password}
-                            onChange={this.handleChange2}
                         />
                     </div>
                     <button

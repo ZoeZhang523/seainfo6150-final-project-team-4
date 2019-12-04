@@ -4,11 +4,11 @@
     position: relative;
     width: 180px;
     height: 240px;
-    justify-items: space-around;
-    justify-content: space-around;
+    justify-items: center;
 }
-.Link {
+.link {
     width: 180px;
+    justify-items: center;
 }
 .image {
     height: 100%;

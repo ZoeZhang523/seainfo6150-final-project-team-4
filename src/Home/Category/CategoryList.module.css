@@ -9,8 +9,10 @@
 }
 .title {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 3em;
+    padding: 10px 10px 10px 10px;
     font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .leftButton {
@@ -18,4 +20,48 @@
 }
 .rightButton {
     grid-column-start: 6;
+}
+
+@media screen and (min-width: 900px) {
+    .categoryList {
+        grid-template-columns: 5% repeat(4, 22.5%) 5%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .categoryList {
+        grid-template-columns: 5% 45% 45% 5%;
+        grid-template-rows: 50% 50%;
+    }
+    .leftButton {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    .rightButton {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .categoryList {
+        grid-template-columns: 5% 90% 5%;
+        grid-template-rows: repeat(4, 25%);
+    }
+    .leftButton {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 5;
+    }
+    .rightButton {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 5;
+    }
 }

@@ -65,7 +65,10 @@ class CategoryList extends Component {
             <div className={style.categoryDisplay}>
                 <p className={style.title}>Category</p>
                 <div className={style.categoryList}>
-                    <button key='leftButton' onClick={this.leftClickEvent}>
+                    <button
+                        key='leftButton'
+                        className={style.leftButton}
+                        onClick={this.leftClickEvent}>
                         Prev
                     </button>
                     {this.state.currentFocusList.map((category, id) => {

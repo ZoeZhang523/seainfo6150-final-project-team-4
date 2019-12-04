@@ -12,7 +12,6 @@ class ResultList extends Component {
     }
 
     componentDidMount() {
-        console.log(this.props);
         this.setState({
             keyword: this.props.match.params.keyword
         });
@@ -20,7 +19,7 @@ class ResultList extends Component {
 
     render() {
         let search_result_dict = {};
-        Object.values(items).map((item, key) => {
+        Object.values(items).forEach((item, key) => {
             if (item.name.toLowerCase().includes(this.state.keyword)) {
                 search_result_dict[key] = item;
             }
@@ -28,7 +27,10 @@ class ResultList extends Component {
         return (
             <div className={styles.container}>
                 {Object.values(search_result_dict).map((search_result_item) => (
-                    <ResultListItem item={search_result_item} />
+                    <ResultListItem
+                        item={search_result_item}
+                        key={search_result_item.id}
+                    />
                 ))}
             </div>
         );

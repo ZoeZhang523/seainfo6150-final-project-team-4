@@ -1,3 +1,7 @@
+.header {
+    font-size: 0.6em;
+    font-weight: bold;
+}
 .topBar {
     display: flex;
     flex-flow: row nowrap;
@@ -63,4 +67,68 @@
     border-radius: 10px;
     padding-left: 3px;
     padding-top: 2px;
+}
+
+@media screen and (max-width: 900px) {
+    .account {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .cart {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .account {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .cart {
+        margin-left: 10px;
+    }
+    .search_box {
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .account {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .cart {
+        margin-left: 10px;
+    }
+    .search_box {
+        width: 400px;
+    }
+    .search_text {
+        width: 200px;
+        padding-left: 20px;
+    }
+    .logo {
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .account {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .cart {
+        margin-left: 10px;
+    }
+    .search_box {
+        width: 200px;
+        padding-left: 10px;
+    }
+    .search_text {
+        width: 100px;
+        padding-left: 10px;
+    }
+    .logo {
+        padding-left: 10px;
+    }
 }

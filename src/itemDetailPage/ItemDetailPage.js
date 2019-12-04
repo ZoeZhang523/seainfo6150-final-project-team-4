@@ -24,9 +24,10 @@ class ItemDetailPage extends Component {
             <section className={styles.itemDetailContainer}>
                 {Object.values(items).map(item => {
                     if (item.id === this.state.Id){
-                        return <ItemDetail item={item} />
+                        return <ItemDetail key={item.id} item={item} />
+                    } else{
+                        return "";
                     }
-                    return
                 })}
             </section>
         )

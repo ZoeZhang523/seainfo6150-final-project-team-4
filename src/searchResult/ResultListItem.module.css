@@ -17,6 +17,12 @@ a{
     }
 }
 
+@media screen and (min-width: 1200px){
+    .itemContainer {
+        width: 235px;
+    }
+}
+
 @media screen and (min-width: 1350px){
     .itemContainer {
         width: 250px;
