@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Icon, Button } from 'antd';
+import NavBar from '../NavigationBar/NavBar.jsx';
 import './TopBar.css';
 
 class TopBar extends Component {
@@ -26,6 +27,9 @@ class TopBar extends Component {
                         />
                         <p className='header'>DoggyCat</p>
                     </a>
+                </div>
+                <div className="navbar">
+                    <NavBar/>
                 </div>
                 <div className='search_box'>
                     <form className='search_form'>

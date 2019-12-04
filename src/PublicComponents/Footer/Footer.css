@@ -2,11 +2,12 @@
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    background-color: #bb9d62;
+    background-color: #f7c45f;
     width: 100%;
     min-height: 185px;
     padding-top: 20px;
     font-size: 15px;
+    font-family: Times, TimesNR, 'New Century Schoolbook', Georgia,;
 } 
 
 .customerService {

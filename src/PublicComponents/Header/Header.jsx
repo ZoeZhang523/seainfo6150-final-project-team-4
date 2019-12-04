@@ -10,7 +10,6 @@ class Header extends React.Component {
         return (
             <div className='header'>
                 <TopBar />
-                <NavBar />
             </div>
         );
     }
