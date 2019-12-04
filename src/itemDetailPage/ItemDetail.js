@@ -20,13 +20,13 @@ const ItemDetail = props => {
             </div>
             <div className={styles.description}>
                 <h3 className={styles.descriptionTitle}>Description</h3>
-                <text className={styles.descriptionText}>{props.item.Description}</text>
+                <p className={styles.descriptionText}>{props.item.Description}</p>
             </div>
 
         </section>
     )
 };
 ItemDetail.propTypes = {
-    item: PropTypes.array.isRequired,
+    item: PropTypes.any.isRequired,
 };
 export default ItemDetail;

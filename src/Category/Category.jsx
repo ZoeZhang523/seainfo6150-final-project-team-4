@@ -26,7 +26,7 @@ class Category extends Component {
         let usage = this.props.match.params.usage;
         let detailUsage = this.props.match.params.detailUsage;
         let category_dict = {};
-        Object.values(items).map((item) => {
+        Object.values(items).forEach((item) => {
             if (item.detailUsage.toLowerCase() === detailUsage) {
                 if (
                     item.usage.toLowerCase() === usage &&
