@@ -17,6 +17,10 @@ class Banner extends Component {
         this.interval = setInterval(() => this.rightClickEvent(), 4000);
     }
 
+    componentWillUnmount() {
+        clearInterval(this.interval);
+    }
+
     leftClickEvent = () => {
         var id = this.state.currentFocus;
         if (id === 0) {

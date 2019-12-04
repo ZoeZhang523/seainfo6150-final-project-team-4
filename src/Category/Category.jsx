@@ -8,7 +8,7 @@ class Category extends Component {
         let petCategory = this.props.match.params.petCategory;
         let usage = this.props.match.params.usage;
         let detailUsage = this.props.match.params.detailUsage;
-        console.log('petCategory:' + petCategory);
+
         var category_dict = {};
         Object.values(items)
             .filter((item) => {
