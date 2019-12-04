@@ -20,13 +20,11 @@ class ResultList extends Component {
 
     render() {
         let search_result_dict = {};
-        {
-            Object.values(items).map((item, key) => {
-                if (item.name.toLowerCase().includes(this.state.keyword)) {
-                    search_result_dict[key] = item;
-                }
-            });
-        }
+        Object.values(items).map((item, key) => {
+            if (item.name.toLowerCase().includes(this.state.keyword)) {
+                search_result_dict[key] = item;
+            }
+        });
         return (
             <div className={styles.container}>
                 {Object.values(search_result_dict).map((search_result_item) => (

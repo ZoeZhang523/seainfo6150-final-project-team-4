@@ -3,7 +3,6 @@ import './NavBar.css';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import { Menu, Dropdown } from 'antd';
 import 'antd/dist/antd.css';
-import Category from '../../../Category/Category.jsx';
 
 class NavBar extends Component {
     renderSubMenu = ({ key, title, subs }) => {
@@ -27,6 +26,7 @@ class NavBar extends Component {
             </Menu.Item>
         );
     };
+
     render() {
         const menus = [
             {
@@ -105,7 +105,7 @@ class NavBar extends Component {
             }
         ];
         const menu = (
-            <Menu defaultSelectedKeys={['1']} defaultOpenKeys={['sub1']}>
+            <Menu>
                 {menus.map((item) => {
                     return item.subs && item.subs.length > 0
                         ? this.renderSubMenu(item)
@@ -114,99 +114,13 @@ class NavBar extends Component {
             </Menu>
         );
         return (
-            <Router>
-                <div className='navBar'>
-                    <div className='menu'>
-                        <Dropdown overlay={menu} style={{ fontSize: '15px' }}>
-                            <a className='ant-dropdown-link' href='#'>
-                                Category
-                            </a>
-                        </Dropdown>
-                    </div>
-                    <Switch>
-                        <Route
-                            path='/category/cat'
-                            exact
-                            component={Category}
-                        />
-                        <Route
-                            path='/category/cat/food'
-                            exact
-                            component={Category}
-                        />
-                        <Route
-                            path='/category/cat/food/dry_food'
-                            exact
-                            component={Category}
-                        />
-                        <Route
-                            path='/category/cat/food/wet_food'
-                            exact
-                            component={Category}
-                        />
-                        <Route
-                            path='/category/cat/toy'
-                            exact
-                            component={Category}
-                        />
-                        <Route
-                            path='/category/cat/bed'
-                            exact
-                            component={Category}
-                        />
-
-                        <Route
-                            path='/category/dog'
-                            exact
-                            component={Category}
-                        />
-                        <Route
-                            path='/category/dog/food'
-                            exact
-                            component={Category}
-                        />
-                        <Route
-                            path='/category/dog/food/dry_food'
-                            exact
-                            component={Category}
-                        />
-                        <Route
-                            path='/category/dog/food/wet_food'
-                            exact
-                            component={Category}
-                        />
-                        <Route
-                            path='/category/dog/toy'
-                            exact
-                            component={Category}
-                        />
-                        <Route
-                            path='/category/dog/bed'
-                            exact
-                            component={Category}
-                        />
-
-                        <Route
-                            path='/category/small_pet'
-                            exact
-                            component={Category}
-                        />
-                        <Route
-                            path='/category/small_pet/food'
-                            exact
-                            component={Category}
-                        />
-                        <Route
-                            path='/category/small_pet/toy'
-                            exact
-                            component={Category}
-                        />
-                        <Route
-                            path='/category/small_pet/bed'
-                            exact
-                            component={Category}
-                        />
-                    </Switch>
+            <div className='navBar'>
+                <div className='menu'>
+                    <Dropdown overlay={menu} style={{ fontSize: '15px' }}>
+                        <a className='ant-dropdown-link' href='#'>
+                            Category
+                        </a>
+                    </Dropdown>
                 </div>
             </div>
         );

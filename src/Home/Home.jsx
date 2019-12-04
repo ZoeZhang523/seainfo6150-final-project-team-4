@@ -8,64 +8,76 @@ class Home extends Component {
     state = {
         BannerImg: [
             {
-                img: '/images/banner_1.jpg',
-                link: '/Item-Detail-Page'
+                img:
+                    'https://s7d2.scene7.com/is/image/PetSmart/WEB-19-492882-Nov_19_WK_40-43_Monthlong_Slider2?$HP1801$',
+                link: '/category/dog/'
             },
             {
-                img: '/images/banner_2.jpg',
-                link: '/Item-Detail-Page'
+                img:
+                    'https://cms-www.chewy.com/contentAsset/raw-data/5af09439-df7c-432c-988c-c90f8854c9bb/largeImage/Autoship-Cat-Lifestyle-Window-Orange-Homepage-Hero-LARGE.jpg',
+                link: '/category/cat/'
+            },
+            {
+                img:
+                    'https://cms-www.chewy.com/contentAsset/raw-data/beabbfeb-3039-4d44-8679-afa7569485cf/largeImage/CyberDeals_Homepage-Hero-LARGE_.jpg',
+                link: '/category/'
+            },
+            {
+                img:
+                    'https://cms-www.chewy.com/contentAsset/raw-data/fbfc2f3d-0bd6-48f3-a892-db7d956b88fe/largeImage/TAF-Homepage-TREATS-LARGEa-Desktop112019.png',
+                link: '/category/cat/food'
             }
         ],
         Category: [
             {
                 title: 'Dog Food',
                 img: '/images/category_1.jpg',
-                link: 'www.images.com'
+                link: '/category/dog/food'
             },
             {
                 title: 'Dog Toy',
                 img: '/images/category_2.jpg',
-                link: 'www.images.com'
+                link: '/category/dog/toy'
             },
             {
                 title: 'Dog Bed',
                 img: '/images/category_3.jpg',
-                link: 'www.images.com'
+                link: '/category/dog/bed'
             },
             {
                 title: 'Cat Food',
                 img: '/images/category_4.jpg',
-                link: 'www.images.com'
+                link: '/category/cat/food'
             },
             {
                 title: 'Cat Toy',
                 img: '/images/category_5.jpg',
-                link: 'www.images.com'
+                link: '/category/cat/toy'
             },
             {
                 title: 'Cat Bed',
                 img: '/images/category_6.jpg',
-                link: 'www.images.com'
+                link: '/category/cat/bed'
             },
             {
                 title: 'Small Pet Food',
                 img: '/images/category_7.jpg',
-                link: 'www.images.com'
+                link: '/category/small_pet/food'
             },
             {
                 title: 'Small Pet Toy',
                 img: '/images/category_8.jpg',
-                link: 'www.images.com'
+                link: '/category/small_pet/toy'
             },
             {
                 title: 'Small Pet Bed',
-                img: '/images/category_5.jpg',
-                link: 'www.images.com'
+                img: '/images/category_9.jpg',
+                link: '/category/small_pet/bed'
             }
         ],
         Recommendation: [
             {
-                title: 'Dog Recommends',
+                title: 'Dog Supply Recommends',
                 itemList: [
                     {
                         title: 'ACANA Red Met Dry Dog Food',
@@ -102,21 +114,51 @@ class Home extends Component {
                 ]
             },
             {
-                title: 'Recommend 2',
+                title: 'Cat Supply Recommends',
                 itemList: [
                     {
-                        title: 'b',
-                        img: '/images/item_2.jpg',
-                        link: '/Item-Detail-Page'
+                        title:
+                            "Hill's Science Diet Adult Urinary & Hairball Control Chicken Recipe Dry Cat Food",
+                        img:
+                            'https://petco.scene7.com/is/image/PETCO/2459069-center-1?$ProductDetail-large$',
+                        link: '/Item-Detail-Page/009'
+                    },
+                    {
+                        title: 'ACANA Meadowlands Dry Cat Food',
+                        img:
+                            'https://petco.scene7.com/is/image/PETCO/2994660-center-1?$ProductDetail-large$',
+                        link: '/Item-Detail-Page/0010'
+                    },
+                    {
+                        title: 'Tiki Cat Puka Puka Luau Chicken Wet Cat Food',
+                        img:
+                            'https://petco.scene7.com/is/image/PETCO/2761840-center-1?$ProductDetail-large$',
+                        link: '/Item-Detail-Page/0011'
+                    },
+                    {
+                        title:
+                            'Royal Canin Mother & Babycat Ultra-Soft Mousse in Sauce Variety Pack Wet Cat Food',
+                        img:
+                            'https://petco.scene7.com/is/image/PETCO/3038178-center-1?$ProductDetail-large$',
+                        link: '/Item-Detail-Page/0012'
+                    },
+                    {
+                        title:
+                            'Leaps & Bounds Faux Leather Mouse Cat Toy with Rattle & Catnip',
+                        img:
+                            'https://petco.scene7.com/is/image/PETCO/2312016-left-1?$ProductDetail-large$',
+                        link: '/Item-Detail-Page/0013'
                     }
                 ]
             }
         ],
         LargeItemDisplay_1: {
-            title: 'largeDisplay',
-            img: '/images/item_large_1.jpg',
-            link: '/Item-Detail-Page',
-            description: 'asdasdfa'
+            title: 'WARE Willow Branch Ball Chew Toy',
+            img:
+                'https://s7d1.scene7.com/is/image/PETCO/1368729-center-1?$ProductDetail-large$',
+            link: '/Item-Detail-Page/0019',
+            description:
+                "Add a naturally fun flavor to playtime! This all natural willow branch chew toy is perfect for tooth trimming and playtime for small pets. This chew toy encourages healthy activity while also alleviating boredom.\n\nWholesome and appealing rabbit treat or guinea pig treat\nSatisfies your pet's natural chewing instincts\nEncourages healthy, playful activity\nMade with environmentally friendly material\nPerfect for tooth trimming"
         }
     };
 

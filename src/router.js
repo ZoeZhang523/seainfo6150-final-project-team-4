@@ -11,7 +11,7 @@ import Category from './Category/Category.jsx';
 import Cart from './Cart/Cart.jsx';
 import OrderPage from './orderPage/OrderPage.jsx';
 import Form from './Form/Form.jsx';
-
+import AboutUs from './AboutUs/AboutUs.jsx';
 const BasicRoute = () => (
     <Switch>
         <Route exact path='/' component={Home} />
@@ -20,12 +20,13 @@ const BasicRoute = () => (
         <Route path='/Item-Detail-Page/:Id' component={ItemDetailPage} />
         <Route path='/Search-Result/:keyword' component={ResultList} />
         <Route
-            path='/Category/:petCategory/:usage?/:detailUsage?'
+            path='/category/:petCategory/:usage?/:detailUsage?'
             component={Category}
         />
         <Route exact path='/Cart' component={Cart} />
         <Route exact path='/OrderPage' component={OrderPage} />
         <Route exact path='/Form' component={Form} />
+        <Route exact path='/AboutUs' component={AboutUs} />
         <Route component={Error} />
     </Switch>
 );

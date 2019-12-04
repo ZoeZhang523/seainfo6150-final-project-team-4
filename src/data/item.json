@@ -69,6 +69,7 @@
     },
 
     "Blue Buffalo Blue Homestyle Recipe Senior Chicken Dinner with Garden Vegetables Wet Dog Food": {
+        "id": "0004",
         "petCategory": "dog",
         "usage": "food",
         "detailUsage": "wet_food",
