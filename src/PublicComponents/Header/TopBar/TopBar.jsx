@@ -12,7 +12,7 @@ class TopBar extends Component {
         this.handleChange = this.handleChange.bind(this);
     }
     handleChange = (event) => {
-        this.setState({ keyword: event.target.keyword });
+        this.setState({ keyword: event.target.value });
     };
     render() {
         return (
@@ -29,13 +29,12 @@ class TopBar extends Component {
                 <div className='search_box'>
                     <form className='search_form'>
                         <input
-                            placeholder='Cat food, dog toys, ...'
                             className='search_text'
                             type='search'
                             value={this.state.keyword}
                             onChange={this.handleChange}
                         />
-                        <Link to='/Search-Result/${keyword}'>
+                        <Link to={'/Search-Result/' + this.state.keyword}>
                             <Button
                                 className='search_btn'
                                 size='large'
