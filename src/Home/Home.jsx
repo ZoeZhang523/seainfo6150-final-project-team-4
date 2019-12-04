@@ -110,6 +110,12 @@ class Home extends Component {
                         img:
                             'https://s7d1.scene7.com/is/image/PETCO/1373854-center-1?$ProductDetail-large$',
                         link: '/Item-Detail-Page/0005'
+                    },
+                    {
+                        title: 'KONG Wild Knots Bear Dog Tug Toy',
+                        img:
+                            'https://petco.scene7.com/is/image/PETCO/2818885-center-1?$ProductDetail-large$',
+                        link: '/Item-Detail-Page/0006'
                     }
                 ]
             },
@@ -148,6 +154,12 @@ class Home extends Component {
                         img:
                             'https://petco.scene7.com/is/image/PETCO/2312016-left-1?$ProductDetail-large$',
                         link: '/Item-Detail-Page/0013'
+                    },
+                    {
+                        title: 'You & Me Ramp Cardboard Cat Scratcher With Toy',
+                        img:
+                            'https://petco.scene7.com/is/image/PETCO/2915503-center-1?$ProductDetail-large$',
+                        link: '/Item-Detail-Page/0014'
                     }
                 ]
             }

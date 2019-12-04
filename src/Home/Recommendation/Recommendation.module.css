@@ -5,7 +5,7 @@
 }
 .recommendList {
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-columns: repeat(6, 16.7%);
     justify-items: center;
 }
 .title {
@@ -16,17 +16,23 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (max-width: 1800px) {
+    .recommendList {
+        grid-template-columns: repeat(6, 16.7%);
+    }
+}
+
+@media screen and (max-width: 1600px) {
     .recommendList {
         grid-template-columns: 20% 20% 20% 20% 20%;
     }
 }
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1200px) {
     .recommendList {
         grid-template-columns: 25% 25% 25% 25%;
     }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
     .recommendList {
         grid-template-columns: 33.3% 33.3% 33.3%;
     }
@@ -34,5 +40,10 @@
 @media screen and (max-width: 600px) {
     .recommendList {
         grid-template-columns: 50% 50%;
+    }
+}
+@media screen and (max-width: 350px) {
+    .recommendList {
+        grid-template-columns: 100%;
     }
 }

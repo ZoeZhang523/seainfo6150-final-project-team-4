@@ -24,6 +24,7 @@ class TopBar extends Component {
                             src='https://img.icons8.com/cotton/64/000000/cat--v3.png'
                             alt=''
                         />
+                        <p className='header'>DoggyCat</p>
                     </a>
                 </div>
                 <div className='search_box'>
