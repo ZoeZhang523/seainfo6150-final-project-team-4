@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Footer.css';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Link } from 'react-router-dom';
 import { Icon } from 'antd';
 import 'antd/dist/antd.css';
 
@@ -18,7 +18,7 @@ class Footer extends Component {
                                 </h3>
                             </li>
                             <li>
-                                <p>Contact Us:</p>
+                                <p id='contactus'>Contact Us:</p>
                             </li>
                             <li>
                                 <Icon
@@ -121,7 +121,12 @@ class Footer extends Component {
                 <div className='cute'>
                     <img
                         src='https://img.icons8.com/cotton/64/000000/cat--v3.png'
-                        alt=''
+                        srcSet="
+                        https://img.icons8.com/cotton/64/000000/cat--v3.png 5x,
+                        https://img.icons8.com/cotton/64/000000/cat--v3.png 3x,
+                        https://img.icons8.com/cotton/64/000000/cat--v3.png 2x,
+                        https://img.icons8.com/cotton/64/000000/cat--v3.png 1x"
+                        alt='brand'
                     />
                 </div>
             </div>

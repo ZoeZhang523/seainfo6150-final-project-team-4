@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './NavBar.css';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Link } from 'react-router-dom';
 import { Menu, Dropdown } from 'antd';
 import 'antd/dist/antd.css';
 
@@ -117,7 +117,7 @@ class NavBar extends Component {
             <div className='navBar'>
                 <div className='menu'>
                     <Dropdown overlay={menu} style={{ fontSize: '15px' }}>
-                        <a className='ant-dropdown-link' href='#'>
+                        <a className='ant-dropdown-link' href='/'>
                             Category
                         </a>
                     </Dropdown>

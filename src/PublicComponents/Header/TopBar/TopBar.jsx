@@ -22,11 +22,19 @@ class TopBar extends Component {
                     <a href='/'>
                         <img
                             id='logo'
+                            srcSet="
+                            https://img.icons8.com/cotton/64/000000/cat--v3.png 5x,
+                            https://img.icons8.com/cotton/64/000000/cat--v3.png 3x,
+                            https://img.icons8.com/cotton/64/000000/cat--v3.png 2x,
+                            https://img.icons8.com/cotton/64/000000/cat--v3.png 1x"
                             src='https://img.icons8.com/cotton/64/000000/cat--v3.png'
                             alt=''
                         />
                         <p className='header'>DoggyCat</p>
                     </a>
+                </div>
+                <div className='navbar'>
+                    <NavBar />
                 </div>
                 <div className='search_box'>
                     <form className='search_form'>
@@ -48,11 +56,6 @@ class TopBar extends Component {
                 </div>
                 <div className='cart'>
                     <a href='/Cart'>
-                        {/*<img
-                            id='cart'
-                            src='https://www.paintoolkit.org/assets/img/icons/icon-shopping-cart.svg'
-                            alt='cart'
-                        />*/}
                         <Icon
                             type='shopping-cart'
                             style={{ fontSize: '30px' }}
@@ -61,12 +64,6 @@ class TopBar extends Component {
                 </div>
                 <div className='account'>
                     <a href='/Login'>
-                        {/*<img
-                            width='30px'
-                            id='account'
-                            src='https://www.bsn.eu/wp-content/uploads/2016/12/user-icon-image-placeholder.jpg'
-                            alt='account'
-                        />*/}
                         <Icon type='user' style={{ fontSize: '30px' }} />
                     </a>
                 </div>

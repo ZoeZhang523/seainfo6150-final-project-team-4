@@ -7,9 +7,15 @@
     min-height: 185px;
     padding-top: 20px;
     font-size: 15px;
-    font-family: Times, TimesNR, 'New Century Schoolbook', Georgia,;
 } 
-
+#contactus {
+    font-size: 16px;
+    color: black;
+    margin-top: 10px;
+}
+.customerServiceList {
+    font-family: Georgia;
+}
 .customerService {
     order: 0;
     padding-left: 20px;
