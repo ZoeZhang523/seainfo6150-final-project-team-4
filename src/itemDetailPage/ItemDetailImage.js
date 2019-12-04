@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import styles from "./ItemDetailImage.module.css"
 
 class ItemDetailImage extends Component{
@@ -18,17 +17,15 @@ class ItemDetailImage extends Component{
         };
         return (
             <div className={styles.imageContainer}>
-            <img className={styles.imageState} src={this.state.url} />
+            <img className={styles.imageState} src={this.state.url} alt={this.state.url}/>
                 {this.props.detailImages.map((detailImageSrc)=>(
-                <img className={styles.imageButton} src={detailImageSrc} onClick={() => clickImage(detailImageSrc)} />
+                <img className={styles.imageButton}
+                     key={detailImageSrc}
+                     alt={detailImageSrc}
+                     src={detailImageSrc} onClick={() => clickImage(detailImageSrc)} />
                 ))}
             </div>
         )}
 }
-
-ItemDetailImage.propTypes = {
-    url: PropTypes.string.isRequired,
-    title: PropTypes.string.isRequired
-};
 
 export default ItemDetailImage;
