@@ -16,9 +16,15 @@
     }
 }
 
-@media screen and (min-width: 1350px){
+@media screen and (min-width: 1200px){
     .itemDetailContainer {
         width: 700px;
+    }
+}
+
+@media screen and (min-width: 1350px){
+    .itemDetailContainer {
+        width: 800px;
     }
 }
 
@@ -72,9 +78,15 @@
     }
 }
 
-@media screen and (min-width: 1350px){
+@media screen and (min-width: 1200px){
     .description {
         width: 700px;
+    }
+}
+
+@media screen and (min-width: 1350px){
+    .description {
+        width: 800px;
     }
 }
 

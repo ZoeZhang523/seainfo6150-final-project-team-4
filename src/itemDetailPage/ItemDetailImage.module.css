@@ -11,15 +11,21 @@
     }
 }
 
-@media screen and (min-width: 1046px){
+@media screen and (min-width: 1000px){
     .imageContainer {
         width: 230px;
     }
 }
 
-@media screen and (min-width: 1350px){
+@media screen and (min-width: 1200px){
     .imageContainer {
         width: 250px;
+    }
+}
+
+@media screen and (min-width: 1350px){
+    .imageContainer {
+        width: 270px;
     }
 }
 
