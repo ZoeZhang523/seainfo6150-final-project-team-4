@@ -7,7 +7,7 @@ import 'antd/dist/antd.css';
 class NavBar extends Component {
     renderSubMenu = ({ key, title, subs }) => {
         return (
-            <Menu.SubMenu key={key} title={<span>{title}</span>}>
+            <Menu.SubMenu key={key} title={<Link to={key}>{title}</Link>}>
                 {subs &&
                     subs.map((item) => {
                         return item.subs && item.subs.length > 0
