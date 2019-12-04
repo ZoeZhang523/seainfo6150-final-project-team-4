@@ -1,22 +1,4 @@
 .navBar {
-
-    height: 100px;
-  }
-  .menu {
-    display: flex;
-    flex-flow: row nowrap;
-
-  }
-  .ant-dropdown-link {
-    font-size: 25px;
-    color: black;
-    margin-left: 30px;
-    margin-top: 20px;
-    font-family: Monospace;
-  }
-
-
-
     height: 60px;
     background-color: #ccda74;
 }
@@ -34,4 +16,5 @@
     font-size: 20px;
     color: black;
     margin-left: 20px;
+    font-family: Monospace;
 }

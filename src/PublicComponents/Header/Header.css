@@ -1,7 +1,10 @@
+body,
 ul,
 li,
 h3,
-div {
+img,
+div,
+input {
     margin: 0;
     padding: 0;
 }
@@ -18,7 +21,9 @@ li {
     list-style: none;
 }
 
-input, select, textarea {
+input,
+select,
+textarea {
     outline: none;
     border: none;
     background: none;

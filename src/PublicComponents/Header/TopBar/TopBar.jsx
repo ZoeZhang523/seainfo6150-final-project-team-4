@@ -28,9 +28,6 @@ class TopBar extends Component {
                         <p className='header'>DoggyCat</p>
                     </a>
                 </div>
-                <div className="navbar">
-                    <NavBar/>
-                </div>
                 <div className='search_box'>
                     <form className='search_form'>
                         <input
