@@ -14,7 +14,7 @@ class TopBar extends Component {
         this.setState({
             searchResult: event.target.value
         });
-    }
+    };
     render() {
         return (
             <div className='topBar'>
@@ -28,13 +28,14 @@ class TopBar extends Component {
                     </a>
                 </div>
                 <div className='search_box'>
-                    <form className="search_form">
-                        <input 
-                        className='search_text' 
-                        type='search'
-                        value={this.state.searchresult}
-                        onChange={this.handleChange}/>
-                        <Link to='/Search-Result'>
+                    <form className='search_form'>
+                        <input
+                            className='search_text'
+                            type='search'
+                            value={this.state.searchResult}
+                            onChange={this.handleChange}
+                        />
+                        <Link to={'/Search-Result/' + this.state.searchResult}>
                             <button className='search_btn'>Search</button>
                         </Link>
                     </form>

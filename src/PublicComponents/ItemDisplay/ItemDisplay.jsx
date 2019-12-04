@@ -12,7 +12,7 @@ class ItemDisplay extends Component {
                         alt='alt'
                     />
                 </a>
-                <span className={style.title}>{this.props.item.title}</span>
+                <p className={style.title}>{this.props.item.title}</p>
             </div>
         );
     }

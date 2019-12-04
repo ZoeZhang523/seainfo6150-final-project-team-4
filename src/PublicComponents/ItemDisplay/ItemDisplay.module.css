@@ -1,19 +1,19 @@
 .itemDisplay {
+    display: grid;
+    grid-template-rows: 60% 40%;
     position: relative;
     width: 180px;
     height: 240px;
 }
 .image {
-    width: 180px;
-    height: 240px;
+    height: 100%;
 }
 
 .title {
-    position: absolute;
     width: 100%;
     bottom: 10px;
     left: 0px;
     text-align: center;
-    color: antiquewhite;
-    font-size: 1.6em;
+    color: black;
+    font-size: 1.2em;
 }

@@ -6,7 +6,7 @@ const Error = () => {
         <div className={style.error}>
             <img
                 className={style.image}
-                src='/images/treefrog.jpg'
+                src='/images/banner_1.jpg'
                 alt='error'
             />
             <div className={style.navigator}>

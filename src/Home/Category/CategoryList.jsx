@@ -48,7 +48,7 @@ class CategoryList extends Component {
             const endPoint =
                 newFocusId + this.state.rowCount >=
                 this.state.categoryList.length
-                    ? this.state.categoryList.length - 1
+                    ? this.state.categoryList.length
                     : newFocusId + this.state.rowCount;
             this.setState({
                 currentFocusId: newFocusId,
