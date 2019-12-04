@@ -1,20 +1,19 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-
+import { Icon, Button } from 'antd';
 import './TopBar.css';
 
 class TopBar extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            searchResult: ' '
+            keyword: ''
         };
+        this.handleChange = this.handleChange.bind(this);
     }
     handleChange = (event) => {
-        this.setState({
-            searchResult: event.target.value
-        });
-    }
+        this.setState({keyword: event.target.keyword});
+   }
     render() {
         return (
             <div className='topBar'>
@@ -28,34 +27,37 @@ class TopBar extends Component {
                     </a>
                 </div>
                 <div className='search_box'>
-                    <form className="search_form">
+                    <form className="search_form"> 
                         <input 
+                        placeholder='Cat food, dog toys, ...'
                         className='search_text' 
                         type='search'
-                        value={this.state.searchresult}
+                        value={this.state.keyword}
                         onChange={this.handleChange}/>
-                        <Link to='/Search-Result'>
-                            <button className='search_btn'>Search</button>
+                        <Link to='/Search-Result/${keyword}'>
+                            <Button className='search_btn' size='large' style={{backgroundColor: "#ff8c00"}}>search</Button>
                         </Link>
                     </form>
                 </div>
                 <div className='cart'>
                     <a href='/Cart'>
-                        <img
+                        {/*<img
                             id='cart'
                             src='https://www.paintoolkit.org/assets/img/icons/icon-shopping-cart.svg'
                             alt='cart'
-                        />
+                        />*/}
+                        <Icon type="shopping-cart" style={{ fontSize: '30px'}}/>
                     </a>
                 </div>
                 <div className='account'>
                     <a href='/Login'>
-                        <img
+                        {/*<img
                             width='30px'
                             id='account'
                             src='https://www.bsn.eu/wp-content/uploads/2016/12/user-icon-image-placeholder.jpg'
                             alt='account'
-                        />
+                        />*/}
+                        <Icon type="user" style={{ fontSize: '30px'}}/>
                     </a>
                 </div>
             </div>
