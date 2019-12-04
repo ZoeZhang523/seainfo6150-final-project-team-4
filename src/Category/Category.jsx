@@ -47,7 +47,6 @@ class Category extends Component {
                         />
                     )
                 )}
-                )
             </div>
         );
     }
