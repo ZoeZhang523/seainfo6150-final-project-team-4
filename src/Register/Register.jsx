@@ -8,19 +8,12 @@ class Register extends Component {
             email: '',
             password: ''
         };
-    };
-    handleChange1 = (event) => {
-        var email = event.target.email;
-        this.setState({email: email});
-      };
-      handleChange2 = (event) => {
-        var password = event.target.password;
-        this.setState({password: password});
-      };
+    }
+
     render() {
         return (
             <div className='register'>
-                <form className="register_form">
+                <form className='register_form'>
                     <div className='title'>
                         <span>Sign Up</span>
                     </div>
@@ -30,8 +23,6 @@ class Register extends Component {
                             type='email'
                             className='email'
                             placeholder=' Please enter your email'
-                            value={this.state.email}
-                            onChange={this.handleChange1}
                         />
                     </div>
                     <div className='passwordCol'>
@@ -39,9 +30,7 @@ class Register extends Component {
                             label='Password'
                             type='password'
                             className='pwd'
-                            value={this.state.password}
                             placeholder=' Please enter your password'
-                            onChange={this.handleChange2}
                         />
                     </div>
                     <button

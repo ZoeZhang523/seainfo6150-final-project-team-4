@@ -5,13 +5,15 @@ class ItemDisplay extends Component {
     render() {
         return (
             <div className={style.itemDisplay}>
-                <Link to={this.props.item.link} className={style.Link}>
-                    <img
-                        className={style.image}
-                        src={this.props.item.img}
-                        alt='alt'
-                    />
-                </Link>
+                <div className={style.link}>
+                    <Link to={this.props.item.link}>
+                        <img
+                            className={style.image}
+                            src={this.props.item.img}
+                            alt='alt'
+                        />
+                    </Link>
+                </div>
                 <p className={style.title}>{this.props.item.title}</p>
             </div>
         );

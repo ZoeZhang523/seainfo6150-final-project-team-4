@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './NavBar.css';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Link } from 'react-router-dom';
 import { Menu, Dropdown } from 'antd';
 import 'antd/dist/antd.css';
 

@@ -14,6 +14,7 @@ class Banner extends Component {
             imgList: this.props.imgList,
             currentFocus: 0
         });
+        this.interval = setInterval(() => this.rightClickEvent(), 4000);
     }
 
     leftClickEvent = () => {
