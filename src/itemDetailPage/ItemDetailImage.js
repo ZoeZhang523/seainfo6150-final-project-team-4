@@ -25,6 +25,7 @@ class ItemDetailImage extends Component {
                 />
                 {this.props.detailImages.map((detailImageSrc) => (
                     <img
+                        key={detailImageSrc}
                         className={styles.imageButton}
                         src={detailImageSrc}
                         onClick={() => clickImage(detailImageSrc)}
