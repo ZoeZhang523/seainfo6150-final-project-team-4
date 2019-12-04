@@ -6,9 +6,9 @@ const ResultImage = (props) => {
     return (
         <a href={'/Item-Detail-Page/' + props.id}>
             <img
-                className={styles.mainimage}
-                src={props.url}
-                alt={props.name}
+            className={styles.mainimage}
+            src={props.url}
+            alt={props.name}
             />
         </a>
     );

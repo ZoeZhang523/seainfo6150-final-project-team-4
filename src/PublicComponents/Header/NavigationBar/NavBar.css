@@ -1,20 +1,17 @@
 .navBar {
     height: 100px;
-    background-color: #ccda74;
   }
   .menu {
     display: flex;
     flex-flow: row nowrap;
 
   }
-  .navBar h3 {
-    line-height: 30px;
-    margin-left: 30px;
-  }
   .ant-dropdown-link {
-    font-size: 20px;
+    font-size: 25px;
     color: black;
-    margin-left: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: Monospace;
   }
 
 

@@ -8,9 +8,9 @@ class RecommendationBanner extends Component {
             <div className={style.largeItemDisplay}>
                 <a href={this.props.item.link}>
                     <img
-                        className={style.image}
-                        src={this.props.item.img}
-                        alt='alt'
+                    className={style.image}
+                    src={this.props.item.img}
+                    alt='alt'
                     />
                 </a>
                 <div className={style.rightSide}>
